@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Tables</title>
+</head>
+<body>
+  <h1>Tables</h1>
+  <!--Creating a table note: without CSS renders with no borders-->
+  <table>
+    <caption>This is a caption</caption>
+    <!--adding a table header-->
+    <th>Table heading</th>
+    <!--adding a table row-->
+    <tr>Table row</tr>
+    <td>Table data</td>
+    <td rowspan="3">
+      You can make the data span over
+      a specified number of rows or columns
+    </td>
+    <!--CSS will add the borders-->
+    <style>
+        table, th, td {
+           border: 2px solid gray;
+        }
+    </style>
+  </table>
+</body>
+</html>
